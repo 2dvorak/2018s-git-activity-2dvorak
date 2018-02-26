@@ -13,3 +13,5 @@ taking the course IS-521 2018 at KAIST.
 - Always read the manual, i.e., the activity document, and create
   an issue if you have any problem with the activity. But please
   read the manual before you do it.
+
+- You should put your name and email address in the introductory line above.
