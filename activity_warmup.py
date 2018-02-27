@@ -63,7 +63,7 @@ def main():
 				for i, group in enumerate(group_list):
 					print "GROUP {0} :".format(i + 1),
 					for name in group:
-						print name,
+						print "'" + name + "'",
 					print
 					
 		except Exception as ex:
