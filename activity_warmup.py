@@ -61,7 +61,10 @@ def main():
 				name_list = read_csv(sys.argv[1])
 				group_list = shuffle(name_list, int(sys.argv[2]))
 				for i, group in enumerate(group_list):
-					print "GROUP {0} : {1}".format(i + 1, group)
+					print "GROUP {0} :".format(i + 1),
+					for name in group:
+						print name,
+					print
 					
 		except Exception as ex:
 			# in case argv[2] not an integer
