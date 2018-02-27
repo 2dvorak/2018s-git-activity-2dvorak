@@ -5,7 +5,7 @@ import random
 # reads csv file(argv[1])
 def read_csv(csv_filename):
 	with open(csv_filename,'r') as csvfile:
-		# detect delimeter
+		# detect delimiter
 		dialect = csv.Sniffer().sniff(csvfile.read())
 
 		csvfile.seek(0)
